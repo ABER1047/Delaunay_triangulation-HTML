@@ -215,12 +215,13 @@ mouse_y = event.clientY;
     if (mouse_y > 64)
     { 
     console.log("mouse_x : "+mouse_x);
-    console.log("mouse_y : "+mouse_y);eel
+    console.log("mouse_y : "+mouse_y);
     user_event1();
-    //user_event0();
     setTimeout(user_event0,10,0);
     n_point_num ++;
-    setTimeout(draw_event,20,0);
+
+    setTimeout(user_event3,15,0);
+    setTimeout(draw_event,20,1);
     }
 }
 
